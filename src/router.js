@@ -9,6 +9,9 @@ function RouterConfig({ history }) {
         <Route path="/" exact component={IndexPage} />
       </Switch>
     </Router>
+
+
+
   );
 }
 
