@@ -15,7 +15,9 @@ class App extends React.Component {
     tu2:'../src/assets/7.jpg',
     tu3:'../src/assets/8.jpg',
     tu4:'../src/assets/9.jpg',
-    aa:true
+    aa:true,
+    guanggao:'https://picb2b.qyer.com/Fo4Ko7bDWW73MafqLxd8jZlW9xl-',
+    guanggao1:'https://picb2b.qyer.com/FgcufbQGnVJj4pW7RGetvbmiK_Vh'
   }
 
 
@@ -58,23 +60,18 @@ class App extends React.Component {
             <div className={styles.b2}>
 
                 <div className={styles.b2l}>
-                  <form>
-                      
-                  </form>
-                      <div style={{display:'none'}}>
-                         <input name="keyword" type="text"  value="" />
-                      </div>
+                  <i className={styles.ss}></i> 
+                   {/*输入框  */}
+                   <input style={{display:'clock'}} name="" type="text"  value="" /> 
                 </div>
 
-
               <div className={styles.b2r}>
-              <a className={styles.qq} href="##"> </a>
-              <a className={styles.weibo} href="##"> </a>
-              <a className={styles.weixin} href="##"> </a>
-              <a className={styles.zhuce} href="##">注册</a>
-              <a className={styles.denglu} href="##">登录</a>
+                <a  href="##"><i className={styles.qq}></i></a>
+                <a  href="##"><i className={styles.weibo}></i></a>
+                <a  href="##"><i className={styles.weixin}></i></a>
+                <a className={styles.zhuce} href="##"><span>注册</span></a>
+                <a className={styles.denglu} href="##">登录</a>
               </div>
-
             </div>
       </div>
 
@@ -85,8 +82,27 @@ class App extends React.Component {
       <div><img src={this.state.tu3} alt="" /></div>
       <div><img src={this.state.tu4} alt="" /></div>
       </Carousel>
-   </div>
 
+
+ {/* 广告 */}
+<div style={{width:'100%',height:'152px',padding:'20px 0 20px 106px',
+    background: '#f5f5f5'}}>
+  <div className={styles.guang}>
+      <ul>
+        <li><img src={this.state.guanggao} alt="" /></li>
+        <li><img src={this.state.guanggao1} alt="" /></li>
+      </ul>
+  </div>
+</div>
+
+
+{/* 今日推荐 */}
+<div className={styles.jinri}>
+
+</div>
+
+
+   </div>
     );
   }
 }
