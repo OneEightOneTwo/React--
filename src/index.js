@@ -1,5 +1,9 @@
 import dva from 'dva';
+// antd全局样式
+// import 'antd-mobile/dist/antd-mobile.css';
+import 'antd/dist/antd.css';
 import './index.css';
+
 
 // 1. Initialize
 const app = dva();
@@ -15,3 +19,4 @@ app.router(require('./router').default);
 
 // 5. Start
 app.start('#root');
+

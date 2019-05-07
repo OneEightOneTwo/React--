@@ -1,0 +1,140 @@
+body {
+  font: 12px/1.5 Helvetica Neue, Helvetica, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+button {
+  background: #3fa060
+}
+span{
+    -webkit-user-select:none;user-select:none;
+}
+
+.dk {
+  background: url(../../assets/web_login_bg.ecb39528.jpg)no-repeat left top;
+  width: 100%;
+  height: 100%;
+  min-width: 960px;
+  min-height: 765px;
+
+}
+
+.xk {
+  width: 100%;
+  height: 224px;
+  min-width: 1423px;
+  padding: 30px 0;
+  text-align: left;
+  background: url(../../assets/捕获_r2_c1.png)no-repeat center;
+  background-size: 100% 100%;
+  color: #959595;
+  clear: both;
+  /* position: relative; */
+}
+
+.dlk {
+  margin: 0 auto;
+  padding: 20px 25px;
+  width: 380px;
+  background: #f7f7f7;
+  margin-top: 0;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 380px;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.logo img {
+  height: 46px;
+}
+
+.logo span {
+  font-size: 24px;
+  font-family: Hiragino Sans GB, Microsoft YaHei, SimHei, SimSun, sans-serif;
+  color: #fff;
+  vertical-align: bottom;
+  text-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+.sjyxyhm{
+    margin-top: 10px;
+}
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+.wangjimima {
+  float: right;
+}
+.tubiao i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 15px 21px;
+}
+.tubiao i:nth-child(1){
+    background: url(../../assets/qq_2.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.tubiao i:nth-child(2){
+    background: url(../../assets/weibo_7_1.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.tubiao i:nth-child(3){
+    background: url(../../assets/taobao.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.tubiao i:nth-child(4){
+    background: url(../../assets/weixin.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.tubiao i:nth-child(1):hover{
+    background: url(../../assets/qq_3.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.tubiao i:nth-child(2):hover{
+    background: url(../../assets/weibo.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.tubiao i:nth-child(3):hover{
+    background: url(../../assets/taobao_3.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.tubiao i:nth-child(4):hover{
+    background: url(../../assets/weixin_3.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.dlsjh{
+    display: inline-block;
+    margin-left: 5px;
+}
+.tpsbm{
+    display: inline-block;
+}
+.shibiema{
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    color: #3fa060;
+    background: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 5px;
+}
+.fsyzm{
+    margin-left: 5px;
+}
